@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap');
+#header{
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    z-index: 1000;
+}
+#start{
+    background-color: #1FC8BF;
+    height: 70px;
+    width: 300px;
+    margin-left: 71%;
+    margin-top: -60px;
+    position: relative;
+    border-radius: 100px;  
+    color: white;
+    z-index: 100;
+}
+#starttext{
+    position: relative;
+    text-align: center;
+    transform: translateY(60%);
+    font-size: 20pt;
+    font-family: montserrat;
+}
+#icon{
+    position: relative;
+    height: 25px;
+    margin-top: 15px;
+    margin-left: 100px;
+}
+*{
+    font-family: 'Raleway', sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+#screen1{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+}
+#miniscreen1text{
+    font-size: 20px;
+    margin-top: 100px;
+}
+#screen2{
+    margin-left: 100px;
+    height: 500px;
+}
+#frame1{
+    overflow: hidden;
+    margin-top: -551px;
+    margin-right: 120px;
+    scale: 38%;
+}
+#screen1text{
+    margin-left: 100px;
+    margin-top: 100px;
+    font-size: 50pt;
+}
+#screen1img{
+    overflow: hidden;
+}
+#screen2headertext{
+    margin-top: 50px;
+}
+#screen2wrapper{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#stuff{
+    margin-top: 20px;
+    font-size: 15px;
+}
+#computer{
+    overflow: hidden;
+    margin-top: 50px;
+}
+#phone{
+    margin-top: 50px;
+}
+#fire{
+    margin-top: 50px;
+}
+#computer span{
+    visibility: hidden;
+}
+#computer span img{
+    position: absolute;
+    scale: 40%;
+    margin-left: 75px;
+    margin-top: -500px;
+}
+#computer:hover span{
+    visibility: visible;
+}
+#phone span{
+    visibility: hidden;
+}
+#phone span img{
+    position: absolute;
+    scale: 40%;
+    margin-left: 75px;
+    margin-top: -640px;
+}
+#phone:hover span{
+    visibility: visible;
+}
+#fire span{
+    visibility: hidden;
+}
+#fire span img{
+    position: absolute;
+    scale: 40%;
+    margin-left: 75px;
+    margin-top: -800px;
+}
+#fire:hover span{
+    visibility: visible
+}
+#wrapper{
+    display: flex;
+    flex-direction: column;
+}
+#screen3{
+    margin-left: 200px;
+    margin-right: 400px;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+}
+#lenaturflot img{
+    margin-left: -100px;
+    margin-top: -200px;
+    scale: 50%;
+    position: relative;
+    z-index: 1;
+}
+#lenaturflottext{
+    margin-top: -250px;
+    margin-left: 300px;
+    margin-right: 100px;
+    position: relative;
+    z-index: 2;
+}
+#lenaturflottext h3{
+    color: #1FC8BF;
+    margin-bottom: 10px;
+}
+#lenaturflottext h2{
+    margin-bottom: 10px;
+}
+#b2b{
+    margin-top: 50px;
+}
+#b2b img{
+    margin-top: -700px;
+    margin-left: 100px;
+    scale: 20%;
+}
+#b2b h3{
+    color: #1FC8BF;
+    margin-bottom: 10px;
+}
+#b2btext{
+    margin-left: 300px;
+    margin-top: -660px;
+    margin-right: 100px;
+}
+#b2b h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#ulula img{
+    scale: 50%;
+    margin-top: -215px;
+    margin-left: -100px;
+    z-index: 1;
+    position: relative;
+}
+#ululatext{
+    z-index: 100000;
+    margin-top: -250px;
+    margin-left: 300px;
+    position: relative;
+}
+#ulula h3{
+    color:#1FC8BF;
+    margin-bottom: 10px;
+}
+#ulula h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
