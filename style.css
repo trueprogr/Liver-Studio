@@ -116,7 +116,7 @@
     margin-top: 50px;
 }
 #computer span{
-    visibility: hidden;
+    visibility: visible;
 }
 #computer span img{
     position: absolute;
@@ -124,12 +124,12 @@
     margin-left: 75px;
     margin-top: -400px;
 }
-#computer:hover span{
+/*#computer:hover span{
     animation: Appearance;
     animation-duration: 2s;
     animation-timing-function: cubic-bezier(.1,-.6,.2,0);
     visibility: visible;
-}
+}*/
 #phone span{
     visibility: hidden;
 }
@@ -137,7 +137,7 @@
     position: absolute;
     transform:scale(40%) ;
     margin-left: 75px;
-    margin-top: -520px;
+    margin-top: -543px;
 }
 #phone:hover span{
     animation: Appearance;
@@ -152,7 +152,7 @@
     position: absolute;
     transform:scale(40%);
     margin-left: 75px;
-    margin-top: -700px;
+    margin-top: -703px;
 }
 #fire:hover span{
     animation: Appearance;
@@ -235,4 +235,79 @@
 #ulula h2{
     margin-top: 10px;
     margin-bottom: 10px;
+}
+#banner{
+    display: flex;
+    margin-top: 100px;
+    background-color: #1FC8BF;
+    width: 100%;
+    height: 120px;
+    justify-content: space-between;
+    overflow: hidden;
+}
+#bannerstart{
+    background-color: white;
+    height: 70px;
+    width: 300px;
+    margin-right: 140px;
+    border-radius: 100px;
+    margin-top: 25px;
+}
+#bannertext{
+    margin-top: 30px;
+    margin-right: 400px;
+}
+#roadmap{
+    margin-top: 150px;
+}
+#roadmap h1{
+    margin-left: 350px;
+}
+#roadmap img{
+    margin-top: 50px;
+    margin-left: 25%;
+}
+#wins{
+    background-color: #1FC8BF;
+    margin-top: 150px;
+    height: 500px;
+}
+#winsh1{
+    margin-top: 100px;
+    margin-left: 180px;
+}
+#winswrapper{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 200px;
+    margin-top: 100px;
+}
+#winswrapperimg img{
+    height: 150px;
+    width: 150px;
+}
+#wins h1 p{
+    margin-top: -500px;
+    margin-left: 200px;
+    z-index: 121;
+    position: absolute;
+}
+#winstext1{
+    margin-top: -80px;
+    margin-left: 300px;
+    position: absolute;
+}
+#winstext2{
+    margin-top: -80px;
+    margin-left: 820px;
+    position: absolute;
+}
+#footer{
+    background-color: #1FC8BF;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+#footertext{
+    margin-left: 100px;
 }
