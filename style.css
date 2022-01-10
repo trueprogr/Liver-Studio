@@ -1,4 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap');
+@-webkit-keyframes Appearance {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }
+  
+  @-o-keyframes Appearance {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }
+  
+  @-moz-keyframes Appearance {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }
+  
+  @keyframes Appearance {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }
 *{
     font-family: 'Raleway', sans-serif;
     margin: 0%;
@@ -6,23 +25,27 @@
     color: #333333;
 }
 #header{
-    position: fixed;
+    display:flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
     width: 100%;
     height: 50px;
     z-index: 1000;
     color: white;
-    margin-top: 20px;
+    z-index: 101;
+    margin-right: 500px;
 }
 #start{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 500px;
     background-color: #1FC8BF;
     height: 70px;
     width: 300px;
-    margin-left: 71%;
-    margin-top: -60px;
-    position: relative;
-    border-radius: 100px;  
-    color: white;
-    z-index: 100;
+    margin-right: 140px;
+    border-radius: 100px;
+    z-index: 101;
 }
 #starttext{
     position: relative;
@@ -50,7 +73,7 @@
     margin-top: -551px;
     margin-right: 120px;
     transform:scale(40%) ;
-    z-index: 1000;
+    z-index: 99;
 }
 #screen1text{
     margin-left: 100px;
@@ -99,9 +122,12 @@
     position: absolute;
     transform:scale(40%) ;
     margin-left: 75px;
-    margin-top: -500px;
+    margin-top: -400px;
 }
 #computer:hover span{
+    animation: Appearance;
+    animation-duration: 2s;
+    animation-timing-function: cubic-bezier(.1,-.6,.2,0);
     visibility: visible;
 }
 #phone span{
@@ -111,9 +137,12 @@
     position: absolute;
     transform:scale(40%) ;
     margin-left: 75px;
-    margin-top: -640px;
+    margin-top: -520px;
 }
 #phone:hover span{
+    animation: Appearance;
+    animation-duration: 2s;
+    animation-timing-function: cubic-bezier(.1,-.6,.2,0);
     visibility: visible;
 }
 #fire span{
@@ -123,9 +152,12 @@
     position: absolute;
     transform:scale(40%);
     margin-left: 75px;
-    margin-top: -800px;
+    margin-top: -700px;
 }
 #fire:hover span{
+    animation: Appearance;
+    animation-duration: 2s;
+    animation-timing-function: cubic-bezier(.1,-.6,.2,0);
     visibility: visible
 }
 #wrapper{
