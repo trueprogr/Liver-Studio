@@ -18,7 +18,7 @@
     0% {opacity: 0;}
     100% {opacity: 1;}
   }
-*{
+  *{
     font-family: 'Raleway', sans-serif;
     margin: 0%;
     padding: 0%;
@@ -61,6 +61,7 @@
     margin-left: 100px;
 }
 #screen1{
+    width: 700px;
     height: 740px;
     display: flex;
     justify-content: center;
@@ -69,96 +70,44 @@
     font-size: 20px;
     margin-top: 100px;
 }
-#frame1{
-    margin-top: -551px;
-    margin-right: 120px;
-    transform:scale(40%) ;
-    z-index: 99;
-}
 #screen1text{
     margin-left: 100px;
     margin-top: 100px;
     font-size: 50pt;
 }
 #screen1img{
-    overflow-y: hidden;
-    overflow-x: hidden;
-    z-index: 10;
+    margin-right: -380px;
+}
+.lottie-player{
+    transform: scale(300%);
 }
 
-#screen2{
-    margin-left: 100px;
+.screen2{
+    margin-left: 300px;
     height: 500px;
 }
-#screen2headertext{
+#frame2headertext{
     margin-top: 50px;
+    margin-left: 100px;
     z-index: 1;
 }
-#screen2wrapper{
+#frame2wrapper{
     z-index: 1;
     margin-top: 50px;
+    margin-left: 100px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
-#stuff{
-    margin-top: 20px;
-    font-size: 15px;
+#sitesimg{
+    transform: scale(5%);
 }
-#computer{
-    overflow: hidden;
-    margin-top: 50px;
+#appsimg{
+    transform: scale(5%);
 }
-#phone{
-    margin-top: 50px;
-}
-#fire{
-    margin-top: 50px;
-}
-#computer span{
-    visibility: visible;
-}
-#computer span img{
-    position: absolute;
-    transform:scale(40%) ;
-    margin-left: 75px;
-    margin-top: -400px;
-}
-/*#computer:hover span{
-    animation: Appearance;
-    animation-duration: 2s;
-    animation-timing-function: cubic-bezier(.1,-.6,.2,0);
-    visibility: visible;
-}*/
-#phone span{
-    visibility: hidden;
-}
-#phone span img{
-    position: absolute;
-    transform:scale(40%) ;
-    margin-left: 75px;
-    margin-top: -543px;
-}
-#phone:hover span{
-    animation: Appearance;
-    animation-duration: 2s;
-    animation-timing-function: cubic-bezier(.1,-.6,.2,0);
-    visibility: visible;
-}
-#fire span{
-    visibility: hidden;
-}
-#fire span img{
-    position: absolute;
-    transform:scale(40%);
-    margin-left: 75px;
-    margin-top: -703px;
-}
-#fire:hover span{
-    animation: Appearance;
-    animation-duration: 2s;
-    animation-timing-function: cubic-bezier(.1,-.6,.2,0);
-    visibility: visible
+#identicimg{
+    transform: scale(5%);
 }
 #wrapper{
     display: flex;
@@ -255,7 +204,7 @@
 }
 #bannertext{
     margin-top: 30px;
-    margin-right: 400px;
+    margin-right: 300px;
 }
 #roadmap{
     margin-top: 150px;
@@ -294,20 +243,93 @@
 }
 #winstext1{
     margin-top: -80px;
-    margin-left: 300px;
+    margin-left: 350px;
     position: absolute;
 }
 #winstext2{
     margin-top: -80px;
-    margin-left: 820px;
+    margin-left: 1020px;
     position: absolute;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#nametext{
+    margin-top: 50px;
+    margin-right: 770px;
+    margin-bottom: 10px;
+}
+#companytext{
+    margin-top: 50px;
+    margin-right: 650px;
+    margin-bottom: 10px;
+}
+#emailtext{
+    margin-top: 50px;
+    margin-right: 750px;
+    margin-bottom: 10px;
+}
+#desctext{
+    margin-top: 50px;
+    margin-right: 720px;
+    margin-bottom: 10px;
+}
+#name{
+    margin-bottom: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 800px;
+    height: 50px;
+} 
+#company{
+    margin-bottom: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 800px;
+    height: 50px;
+}
+#email{
+    margin-bottom: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 800px;
+    height: 50px;
+}
+#desc{
+    margin-bottom: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 800px;
+    height: 200px;
+
+}
+#button{
+    margin-top: 50px;
+    background-color: #1FC8BF;
+    height: 70px;
+    width: 500px;
+    border-radius: 100px;
+    border: none;
+    margin-bottom: 100px;
 }
 #footer{
     background-color: #1FC8BF;
     margin-top: 20px;
     padding-top: 10px;
-    padding-bottom: 50px;
 }
 #footertext{
+    margin-top: 50px;
     margin-left: 100px;
+}
+#footer img{
+    margin-top: -80px;
+    margin-left: 1200px;
+    transform: scale(80%);
 }
