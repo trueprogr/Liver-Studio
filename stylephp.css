@@ -53,7 +53,9 @@
     text-align: center;
     transform: translateY(60%);
     font-size: 20pt;
-    color: white;
+}
+#starttext p{
+    color: #1FC8BF;
 }
 #starta{
     height: 70px;
@@ -68,7 +70,7 @@
     margin-left: 100px;
 }
 #screen1{
-    width: 700px;
+    width: 100%;
     height: 740px;
     display: flex;
     justify-content: space-between;
@@ -83,11 +85,14 @@
     margin-top: 100px;
     font-size: 50pt;
 }
+#mobileiphone12{
+    display: none;
+}
 #pp{
     margin-top: -50px;
 }
 #screen1img{
-    margin-right: -380px;
+    margin-right: 140px;
     z-index: 100;
 }
 .lottie-player{
@@ -104,6 +109,10 @@
     margin-top: 50px;
     margin-left: 200px;
     z-index: 1;
+}
+#frame2headertext h1{
+    color:white;
+    font-size:48px;
 }
 #frame2wrapper{
     display: flex;
@@ -122,9 +131,13 @@
 }
 #frame2text h1{
     margin-bottom: 10px;
+    color: white;
+    font-weight:bold; font-size:36px
 }
 #frame2text p{
     margin-top: 5px;
+    color: white;
+    font-size:24px
 }
 #apps{
     margin-left: 150px;
@@ -158,11 +171,17 @@
     z-index: 2;
 }
 #lenaturflottext h3{
+    font-size:24px;
     color: #1FC8BF;
     margin-bottom: 10px;
 }
 #lenaturflottext h2{
     margin-bottom: 10px;
+    font-size:36px
+}
+#lenaturflottext p{
+    color: #333333;
+    font-size:24px
 }
 #b2b{
     margin-top: 50px;
@@ -175,6 +194,7 @@
 #b2b h3{
     color: #1FC8BF;
     margin-bottom: 10px;
+    font-size:24px;
 }
 #b2btext{
     margin-left: 300px;
@@ -184,6 +204,11 @@
 #b2b h2{
     margin-top: 10px;
     margin-bottom: 10px;
+    font-size:36px
+}
+#b2b p{
+    color: #333333;
+    font-size:24px
 }
 #ulula img{
     margin-top: -215px;
@@ -203,10 +228,16 @@
 #ulula h3{
     color:#1FC8BF;
     margin-bottom: 10px;
+    font-size:24px;
 }
 #ulula h2{
     margin-top: 10px;
     margin-bottom: 10px;
+    font-size:36px;
+}
+#ulula p{
+    color: #333333;
+    font-size:24px;
 }
 #banner{
     display: flex;
@@ -228,6 +259,14 @@
 #bannertext{
     margin-top: 30px;
     margin-right: 500px;
+}
+#bannertext h1{
+    font-size: 48px;
+    color: white;
+}
+#bannertext p{
+    font-size: 24px;
+    color: white;
 }
 #roadmap{
     margin-top: 100px;
@@ -259,7 +298,7 @@
     border:2px solid;
     border-radius: 5px;
     text-align: start;
-    z-index: 50;
+    z-index: 60;
     background-color: white;
     transition: 0.5s ease-out;
 }
@@ -395,7 +434,7 @@
     background-color: white;
     transition: 0.5s ease-out;
 }
-#p3, #p4{
+#p3{
     margin-left: 85px;
 }
 #p3{
@@ -512,10 +551,20 @@
     height: 300px;
     width: 300px;
 }
+#winswrapperimg a{
+    height: 300px;
+    width:300px; 
+    position:absolute;
+}
 #winswrapperimg1 img{
     margin-top: -50px;
     height: 300px;
     width: 300px;
+}
+#winswrapperimg1 a{
+    height: 300px;
+    width:300px;
+    position:absolute;
 }
 #vk{
     position: absolute;
@@ -685,15 +734,413 @@
     margin-left: 1200px;
     transform: scale(80%);
 }
+#screen2{
+    color: white;
+}
+#sites{
+    color: white;
+}
+#p7{
+    opacity: 0;
+}
+#p11{
+    margin-left:-5px;
+    font-weight: bold;
+}
+#p22{
+    margin-left:-5px;
+    font-weight: bold;
+}
+#p222{
+    margin-left:-15px;
+    font-weight: bold;
+}
+#p6{
+    margin-left:-20px;
+}
+#p44{
+    font-weight: bold;
+    margin-left: -20px;
+}
+#p5, #p4{
+    margin-top: -65px;
+    margin-left: 100px;
+    font-weight: bold;
+}
+#p4{
+    margin-top: 0px;
+}
+#cases{
+    font-size:48px;
+}
 @media screen and (max-width: 940px) {
-    #screen1img{
+    #header{
+        z-index: 100;
+        position: sticky;
+        display: block;
+        margin-left: -50px;
+        
+    }
+    #iphone12{
         display: none;
     }
+    #mobileiphone12{
+        display: block;
+        height: 300px;
+        width: 100%;
+        margin-left: 90px;
+        margin-right: auto;
+        margin-top: 50px;
+        z-index: 98;
+    }
+    #mobileiphone12 img{
+        height: 450px;
+        margin-left: auto;
+        margin-right: auto;
+        z-index: 98;
+    }
+    #screen1text{
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+    #screen1 h1{
+        font-size: 40px;
+        font-weight: bold;
+    }
+    #pp{
+        margin-top: 0;
+    }
+    #miniscreen1text{
+        font-size: 12px;
+        margin-top: 10px;
+        white-space: nowrap;
+        margin-left: 2px;
+    }
     #start{
-        margin-left: 70%;
+        margin-left: 50px;
+        border-radius: 50px;
+        margin-top: 550px;
+        width: 300px;
+    }
+    #screen1{
+        flex-direction: column;
+        justify-content: center;
+        height: auto;
+        word-wrap: normal;
     }
     #screen2{
+        background-color: white;
+        margin-top: 150px;
+        white-space: nowrap;
+    }
+    #frame2headertext{
+        margin-left: 10px;
+    }
+    #frame2text{
+        justify-content: space-around;
         flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    #frame2headertext h1{
+        color: #333333;
+        font-size: 20px;
+        margin-left: 50px;
+    }
+    #frame2text h1{
+        color: #333333;
+        font-size: 20px;
+    }
+    #frame2text p{
+        color: #333333;
+        font-size: 12px;
+    }
+    #sites{
+        margin-top: -50px;
+        margin-left: 0px;
+    }
+    #apps{
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    #identic{
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    #screen3{
+        margin-top: 150px;
+    }
+    #lenaturflot img{
+        transform: scale(30%);
+        margin-top: -200px;
+        margin-left: -400px;
+    }
+    #screen3 h1{
+        margin-left: -150px;
+        font-size: 20px;
+    }
+    #screen3wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: nowrap;
+        margin-left: -250px;
+    }
+    #lenaturflottext{
+        margin-top: -300px;
+        margin-left: 100px;
+        white-space: nowrap;
+    }
+    #lenaturflottext h3{
+        font-size: 18px;
+    }
+    #lenaturflottext h2{
+        font-size: 20px;
+    }
+    #lenaturflottext p{
+        font-size: 12px;
+    }
+    #b2b img{
+        margin-left: -170px;
+        transform: scale(20%);
+    }
+    #b2b{
+        margin-top: 100px;
+    }
+    #b2btext h3{
+        font-size: 18px;
+    }
+    #b2btext h2{
+        font-size: 20px;
+    }
+    #b2btext p{
+        font-size: 12px;
+    }
+    #b2btext{
+        white-space: nowrap;
+        margin-left: 100px;
+    }
+    #ulula img{
+        margin-top: -250px;
+        margin-left: -400px;
+        transform: scale(30%);
+    }
+    #ululatext{
+        white-space: nowrap;
+        margin-left: 100px;
+    }
+    #ulula h3{
+        font-size: 18px;
+    }
+    #ulula h2{
+        font-size: 20px;
+    }
+    #ulula p{
+        font-size:12px;
+    }
+    #banner{
+        height: 100px;
+    }
+    #bannertext{
+        margin-right: 0;
+        margin-top: 28px;
+    }
+    #bannertext h1{
+        font-size: 20px;
+    }
+    #bannertext p{
+        font-size: 18px;
+    }
+    #bannerstart{
+        margin-top: 25px;
+        margin-left: 0;
+        margin-right: 0;
+        height: 50px;
+        width: 200px;
+    }
+    #roadmapwrapper img{
+        display: none;
+    }
+    #footer img{
+        display: none;
+    }
+    #bannerstart p{
+        font-size: 18px;
+    }
+    #roadmap h1{
+        margin-left: 50px;
+        padding-bottom: 50px;
+    }
+    #a1, #a2, #a3, #a4, #a5, #a6,#a7{
+        margin-top: 30px;
+        margin-left: 20px;
+        position: relative;
+    }
+    #a1, #a2, #a3, #a4, #a5, #a6,#a7 :focus{
+        all: none;
+    }
+    #activea1, #activea2, #activea3, #activea4, #activea5, #activea6{
+        border: none;
+        opacity: 1;
+    }
+    #roadmapwrapper{
+        display: flex;
+        flex-direction: column;
+        margin-left: 30px;
+        height: 1100px;
+    }
+    #p11, #p22, #p3, #p4, #p5, #p6{
+        font-weight:bold;
+    }
+    #p11{
+        margin-left: 100px;
+        margin-top: -50px;
+    }
+    #activea1{
+        margin-top: 50px;
+        margin-left: 0px;
         height: auto;
+    }
+    #p22{
+        margin-top: -70px;
+        margin-left: 100px;
+    }
+    #p222{
+        margin-left: 100px;
+        margin-top: 0px;
+    }
+    #activea2{
+        margin-top: 50px;
+        margin-left: 0;
+        height: auto;
+    }
+    #activea3{
+        margin-top: 30px;
+        margin-left: 0;
+        height: auto;
+    }
+    #p44{
+        margin-top: -50px;
+        font-weight: bold;
+        margin-left: 100px;
+    }
+    #p3{
+        margin-left: 100px;
+    }
+    #p2{
+        margin-left: 100px;
+    }
+    #activea4{
+        margin-top: 40px;
+        font-weight: bold;
+        margin-left: 0;
+        height: auto;
+    }
+    #p5{
+        margin-left: 100px;
+        margin-top: -65px;
+    }
+    #p4{
+        margin-left: 100px;
+        margin-top: 0px;
+    }
+    #a55{
+        margin-left: 0;
+    }
+    #activea5{
+        margin-top: 30px;
+        margin-left: 0;
+        font-weight: bold;
+        height: auto;
+    }
+    #p6{
+        margin-left: 100px;
+        margin-top: -50px;
+    }
+    #activea6{
+        margin-top: 40px;
+        font-weight: bold;
+        height: auto;
+    }
+    #p7{
+        opacity: 1;
+        margin-top: -50px;
+        margin-left: 100px;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    #wins{
+        height: 500px;
+    }
+    #winsh1{
+        margin-left: 50px;
+        font-size: 30px;
+        margin-top: 50px;
+    }
+    #winswrapper{
+        display: flex;
+        flex-direction: column;
+        margin-left: 50px;
+    }
+    #winswrapperimg img{
+        width: 100px;
+        height: 100px;
+    }
+    #winswrapperimg1 img{
+        width: 100px;
+        height: 100px;
+    }
+    #winswrapperimg1{
+        margin-top: 150px;
+        margin-left: 0px;
+    }
+    #winswrapperimg a{
+        width: 100px;
+        height: 100px;
+    }
+    #winswrapperimg1 a{
+        width: 100px;
+        height: 100px;
+    }
+    #mpit{
+        width: 100px;
+    }
+    #winstext1{
+        margin-left: 120px;
+        margin-top: -150px;
+    }
+    #winstext2{
+        margin-left: 120px;
+        margin-top: 0px;
+    }
+    #form input{
+        width: 300px;
+    }
+    #form textarea{
+        width: 300px;
+        height: 200px;
+    }
+    #nametext{
+        margin-right: 0;
+    }
+    #companytext{
+        margin-right: 0;
+    }
+    #emailtext{
+        margin-right: 0;
+    }
+    #desctext{
+        margin-right: 0;
+    }
+    #footertext h1{
+        font-size: 20px;
+    }
+    #footer{
+        padding-bottom: 30px;
+    }
+    #cases{
+        font-size: 20px;
+    }
+    #footertext{
+        margin-left: 10px;
     }
 }
