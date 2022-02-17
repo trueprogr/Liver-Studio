@@ -24,6 +24,19 @@
     padding: 0%;
     color: #333333;
 }
+<<<<<<< HEAD
+=======
+html{
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+body{
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+>>>>>>> master
 #header{
     display:flex;
     justify-content: space-between;
@@ -52,14 +65,22 @@
     position: relative;
     text-align: center;
     transform: translateY(60%);
+<<<<<<< HEAD
     font-size: 20pt;
+=======
+    font-size: 20px;
+>>>>>>> master
 }
 #starttext p{
     color: #1FC8BF;
 }
 #starta{
     height: 70px;
+<<<<<<< HEAD
     width: 300px;
+=======
+    width: 35%;
+>>>>>>> master
     position: absolute;
     margin-top: -30px;
 }
@@ -955,7 +976,11 @@
         margin-left: 0;
         margin-right: 0;
         height: 50px;
+<<<<<<< HEAD
         width: 200px;
+=======
+        width: 45%;
+>>>>>>> master
     }
     #roadmapwrapper img{
         display: none;

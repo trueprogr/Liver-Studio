@@ -5,7 +5,11 @@
         <title>Liver Studio</title>
         <link rel="stylesheet" href="stylephp.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+<<<<<<< HEAD
         <script src="script.js"></script>
+=======
+        <!-- <script src="script.js"></script> -->
+>>>>>>> master
     </head>
     <body>
     <div id="wrapper">
@@ -84,8 +88,16 @@
             </div>
         </div>
         <div id="banner">
+<<<<<<< HEAD
             <div style="color: #1FC8BF;">,</div><div id="bannertext"><h1>Есть идеи?</h1><p >давайте обсудим</p></div>
             <div id="bannerstart"><div id="starttext"><p>Оставить заявку</p></div><a href="#tellus" id="starta"></a></div>
+=======
+            <div style="color: #1FC8BF;"></div><div id="bannertext"><h1>Есть идеи?</h1><p >давайте обсудим</p></div>
+            <div id="bannerstart">
+                <div id="starttext"><p>Оставить заявку</p></div>
+                <a href="#tellus" id="starta"></a>
+            </div>
+>>>>>>> master
         </div>
         <div id="roadmap">
             <h1>Процесс работы</h1>
